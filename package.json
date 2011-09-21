@@ -2,5 +2,11 @@
 	"name":"nope",
 	"version":"1.0.0",
 	"author":"Aikar <aikar@aikar.co> (http://www.aikar.co)",
-	"main":"lib/nope.js"
+	"main":"lib/nope.js",
+  "engines": {
+    "node": ">=0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+
 }
