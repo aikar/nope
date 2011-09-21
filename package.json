@@ -1,6 +1,6 @@
 {
-	"name":"noop",
+	"name":"nope",
 	"version":"1.0.0"
 	"author":"Aikar <aikar@aikar.co> (http://www.aikar.co)"
-	"main":"lib/noop.js"
+	"main":"lib/nope.js"
 }

@@ -1,10 +1,9 @@
-# Noop
+# Nope
 
 ## About
-Noop gives Node.JS Object Oriented Programming in a traditional class style syntax.
-"Node.js OOP"
+Nope gives Node.JS Object Oriented Programming in a traditional class style syntax.
 
-Noop provides the extremely rich Joose system for letting you easily build
+Nope provides the extremely rich Joose system for letting you easily build
 objects ("Classes") and use them with traditional patterns such as Singletons.
 
 It also provides an autoloader like other languages, so you can specify where
@@ -13,20 +12,20 @@ storing the result to a variable to use, letting you rapidly build your
 application.
 
 ## Install
-Noop is ready to be installed from NPM, but may also be manually added
+Nope is ready to be installed from NPM, but may also be manually added
 to your project with git submodules. First CD to your project root.
 Ensure a directory named `node_modules` exists if using git.
 
   - Install with NPM:
-     - `npm install noop`
+     - `npm install nope`
      
   - Install with GIT:
      - As a submodule:
-        - `git submodule add git://github.com/aikar/noop node_modules/noop`
+        - `git submodule add git://github.com/aikar/nope node_modules/nope`
         - `git submodule update --init --recursive`
 
 ## Usage
-Noop returns a function from its module which allows you to register autoloaders.
+Nope returns a function from its module which allows you to register autoloaders.
 
 First say you have projectroot/lib/Foo/Bar.js with
 
@@ -40,7 +39,7 @@ First say you have projectroot/lib/Foo/Bar.js with
 
 Then in your projectroot/mylib.js
 
-    var autoload = require('noop')    
+    var autoload = require('nope')    
     autoload(__dirname + '/lib')
     
     new Foo.Bar();

@@ -1,4 +1,4 @@
-require('noop')(__dirname + '/lib');
+require('nope')(__dirname + '/lib');
 var fooBar = new Foo.Bar();
 var fooBaz = new Foo.Baz();
 var foo1 = new Foo(); // echos Foo
