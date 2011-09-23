@@ -16,8 +16,8 @@ Nope is ready to be installed from NPM, but may also be manually added
 to your project with git submodules. First CD to your project root.
 Ensure a directory named `node_modules` exists if using git.
 
-  - Install with NPM (npm is not currently publishing the package correctly, so install by url):
-     - `npm install https://github.com/aikar/nope/tarball/master`
+  - Install with NPM:
+     - `npm install nope
      
   - Install with GIT:
      - As a submodule:
@@ -39,8 +39,8 @@ First say you have projectroot/lib/Foo/Bar.js with
 
 Then in your projectroot/mylib.js
 
-    var autoload = require('nope')    
-    autoload(__dirname + '/lib')
+    var autoloader = require('nope')    
+    autoloader.autoload(__dirname + '/lib')
     
     new Foo.Bar();
     

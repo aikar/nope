@@ -7,13 +7,12 @@
 		"node": ">=0.4"
 	},
 	"dependencies": {},
-	"bundledDependencies": {
-		"autoloader":"",
-		"nope":"",
-		"nope.js":"",
-		"joose":"",
-		"joosex-class-simpleconstructor":"",
-		"joosex-class-singleton":"",
-		"joosex-meta-lazy":""
-	}
+	"bundledDependencies": [
+		"autoloader",
+		"nope",
+		"joose",
+		"joosex-class-simpleconstructor",
+		"joosex-class-singleton",
+		"joosex-meta-lazy"
+	]
 }
