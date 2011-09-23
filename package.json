@@ -1,11 +1,19 @@
 {
 	"name":"nope",
-	"version":"1.0.1",
+	"version":"1.1.0",
 	"author":"Aikar <aikar@aikar.co> (http://www.aikar.co)",
 	"main":"lib/nope.js",
 	"engines": {
 		"node": ">=0.4"
 	},
 	"dependencies": {},
-	"devDependencies": {}
+	"bundledDependencies": {
+		"autoloader":"",
+		"nope":"",
+		"nope.js":"",
+		"joose":"",
+		"joosex-class-simpleconstructor":"",
+		"joosex-class-singleton":"",
+		"joosex-meta-lazy":""
+	}
 }
