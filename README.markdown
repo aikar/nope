@@ -1,5 +1,7 @@
 # Nope
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/aikar/nope.svg)](https://greenkeeper.io/)
+
 ## About
 Nope gives Node.JS Object Oriented Programming in a traditional class style syntax.
 
