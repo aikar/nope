@@ -6,6 +6,10 @@
 	"engines": {
 		"node": ">=0.4"
 	},
+	"repository": {
+    		"type": "git",
+    		"url": "https://github.com/aikar/nope.git"
+  	},
 	"dependencies": {},
 	"bundledDependencies": [
 		"autoloader",
